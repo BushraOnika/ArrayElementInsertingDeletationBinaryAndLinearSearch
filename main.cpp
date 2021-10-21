@@ -6,7 +6,7 @@ void display(int arr[], int n){
     // Code for Traversal : Visiting every element of an array once is known as traversing the array.
     for (int i = 0; i < n; i++)
     {
-        //  printf("%d ", arr[i]);
+       
         cout<<arr[i]<<"  ";
     }
     cout<<endl;
