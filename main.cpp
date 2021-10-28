@@ -4,6 +4,7 @@
 using namespace std;
 void display(int arr[], int n){
     // Code for Traversal : Visiting every element of an array once is known as traversing the array.
+    //Traversing: It prints all the array elements one after another
     for (int i = 0; i < n; i++)
     {
        
