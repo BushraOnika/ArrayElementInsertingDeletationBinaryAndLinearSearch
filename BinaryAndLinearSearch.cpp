@@ -1,6 +1,4 @@
-//
-// Created by User on 10/21/2021.
-//
+
 #include <iostream>
 using namespace std;
 int linearSearch(int arr[], int size, int element){
@@ -19,11 +17,13 @@ int binarySearch(int arr[], int size, int element){
     high = size-1;
     // Keep searching until low <= high
     while(low<=high){
+        //START WITH THE MIDDLE OF THE ARRAY IN BINARY SEARCH
         mid = (low + high)/2;
         if(arr[mid] == element){
             return mid;
         }
-        if(arr[mid]<element){
+        if(arr[mid]<element){ 
+            //IF THE MID ELEMENT IS LESS THAN THE GIVEN SEARCHING ELEMENT CHANGING THE LOW AND HIGH
             low = mid+1;
         }
         else{
